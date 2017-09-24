@@ -4,7 +4,8 @@
   "testURL": "http://foo.bar/",
   "testPathIgnorePatterns": [
     "react-cosmos-config/src/__tests__/mocks",
-    "react-cosmos-webpack/src/__tests__/mocks"
+    "react-cosmos-webpack/src/__tests__/mocks",
+    "react-cosmos-server/src/__tests__/mocks"
   ],
   "collectCoverageFrom": [
     "**/src/**/*.{js,jsx}",

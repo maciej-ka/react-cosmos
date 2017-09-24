@@ -1,0 +1,34 @@
+{
+  "name": "react-cosmos-server",
+  "version": "2.0.0-rc.1",
+  "description": "Broadcast station for react cosmos components separated by iframe",
+  "repository": "https://github.com/react-cosmos/react-cosmos/tree/master/packages/react-cosmos-server",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "express": "^4.15.4",
+    "fs-extra": "^4.0.1",
+    "glob": "^7.1.1",
+    "import-from": "^2.1.0",
+    "loader-utils": "^1.1.0",
+    "lodash.omit": "^4.5.0",
+    "react-cosmos-component-playground": "^2.0.0-rc.1",
+    "react-cosmos-config": "^2.0.0-rc.1",
+    "react-cosmos-loader": "^2.0.0-rc.1",
+    "react-cosmos-utils": "^2.0.0-rc.1",
+    "react-cosmos-voyager": "^2.0.0-rc.1",
+    "resolve-from": "^3.0.0",
+    "traverse": "^0.6.6",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2",
+    "yargs": "^8.0.1"
+  },
+  "bin": {
+    "cosmos": "./bin/cosmos.js",
+    "cosmos-export": "./bin/cosmos-export.js"
+  },
+  "xo": false
+}
